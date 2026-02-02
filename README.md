@@ -133,6 +133,7 @@ This string can be passed directly to an LLM in a RAG stack. The **LLM invocatio
 ### 6.3 How would the process change if the information about coaches only were available via PDF?
 
 Instead of **online APIs**, we would need to **ingest** the PDF content into our retrieval system. This means **extracting text** (e.g. using a PDF library like **PyPDF2** or **OCR**), **chunking** it into passages, and **building embeddings** for those chunks. The chatbot would then **search** this **PDF-derived corpus** for answers. In other words, we'd add a **preprocessing step**: **extract and index** the PDF text into the **vector store**, then proceed with retrieval the same way. This adds **complexity** (parsing, chunking), but allows the RAG pipeline to work with the PDF as its **knowledge base**.
+
 ---
 
 ### 6.4 Do you see potential for agents in this process? If so, where and how?
