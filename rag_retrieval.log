@@ -1,0 +1,88 @@
+2026-02-02 17:24:29,427 | INFO | bundesliga_rag | [d679c441] Bundesliga index built: 101 city keys, 208 club keys.
+2026-02-02 17:25:03,239 | INFO | bundesliga_rag | [d60fdc6d] New question: Who is coaching Berlin?
+2026-02-02 17:25:03,247 | INFO | bundesliga_rag | [d60fdc6d] Resolved city 'berlin' -> 1. FC Union Berlin
+2026-02-02 17:25:48,019 | WARNING | bundesliga_rag | [d60fdc6d] Upstream data error: Wikidata API request failed (HTTP 429). Try again later.
+2026-02-02 17:27:49,033 | INFO | bundesliga_rag | [275b10a2] Bundesliga index built: 101 city keys, 208 club keys.
+2026-02-02 17:27:57,097 | INFO | bundesliga_rag | [ee9ff6fb] New question: who is coaching Berlin?
+2026-02-02 17:27:57,101 | INFO | bundesliga_rag | [ee9ff6fb] Resolved city 'berlin' -> 1. FC Union Berlin
+2026-02-02 17:27:57,334 | INFO | bundesliga_rag | [ee9ff6fb] Coach for Q141971 -> Steffen Baumgart (Q2338559)
+2026-02-02 17:28:22,241 | INFO | bundesliga_rag | [889f7422] New question: what about munich?
+2026-02-02 17:28:22,242 | INFO | bundesliga_rag | [889f7422] Resolved city 'munich' -> FC Bayern Munich
+2026-02-02 17:28:22,616 | INFO | bundesliga_rag | [889f7422] Coach for Q15789 -> Vincent Kompany (Q201381)
+2026-02-02 17:28:36,927 | INFO | bundesliga_rag | [198bc7ac] New question: what about hamburg?
+2026-02-02 17:28:36,928 | INFO | bundesliga_rag | [198bc7ac] Resolved ambiguous city 'hamburg' -> Hamburger SV (disambiguated).
+2026-02-02 17:28:37,775 | INFO | bundesliga_rag | [198bc7ac] Coach for Q51974 -> Merlin Polzin (Q124514448)
+2026-02-02 17:29:57,699 | INFO | bundesliga_rag | [b2313d27] New question: who is pauli?
+2026-02-02 17:29:57,701 | INFO | bundesliga_rag | [b2313d27] Resolved via special alias 'pauli' -> FC St. Pauli
+2026-02-02 17:29:57,958 | INFO | bundesliga_rag | [b2313d27] Coach for Q6463 -> Alexander Blessin (Q1560347)
+2026-02-02 17:30:39,223 | INFO | bundesliga_rag | [e348c3fb] New question: Pauli?
+2026-02-02 17:30:39,224 | INFO | bundesliga_rag | [e348c3fb] Resolved via special alias 'pauli' -> FC St. Pauli
+2026-02-02 17:30:39,393 | INFO | bundesliga_rag | [e348c3fb] Coach for Q6463 -> Alexander Blessin (Q1560347)
+2026-02-02 17:39:43,276 | INFO | bundesliga_rag | [2449bac4] New question: who is it for Hamburger SV?
+2026-02-02 17:39:43,278 | INFO | bundesliga_rag | [2449bac4] Resolved club key 'hamburger' -> Hamburger SV
+2026-02-02 17:39:43,664 | INFO | bundesliga_rag | [2449bac4] Coach for Q51974 -> Merlin Polzin (Q124514448)
+2026-02-02 17:39:57,075 | INFO | bundesliga_rag | [48a3ed9a] New question: who is it for pauli?
+2026-02-02 17:39:57,075 | INFO | bundesliga_rag | [48a3ed9a] Resolved via special alias 'pauli' -> FC St. Pauli
+2026-02-02 17:39:57,335 | INFO | bundesliga_rag | [48a3ed9a] Coach for Q6463 -> Alexander Blessin (Q1560347)
+2026-02-02 17:41:05,734 | INFO | bundesliga_rag | [834bbdd7] New question: who is heidenheims manager?
+2026-02-02 17:41:05,736 | INFO | bundesliga_rag | [834bbdd7] Resolved club key 'heidenheim' -> 1. FC Heidenheim 1846
+2026-02-02 17:41:06,863 | INFO | bundesliga_rag | [834bbdd7] Coach for Q162251 -> Frank Schmidt (Q212139)
+2026-02-02 17:42:11,731 | INFO | bundesliga_rag | [93245213] New question: who is it for Berlin?
+2026-02-02 17:42:11,732 | INFO | bundesliga_rag | [93245213] Resolved city 'berlin' -> 1. FC Union Berlin
+2026-02-02 17:42:11,985 | INFO | bundesliga_rag | [93245213] Coach for Q141971 -> Steffen Baumgart (Q2338559)
+2026-02-02 17:42:24,815 | INFO | bundesliga_rag | [07640cc0] New question: what about MUNICH?
+2026-02-02 17:42:24,816 | INFO | bundesliga_rag | [07640cc0] Resolved city 'munich' -> FC Bayern Munich
+2026-02-02 17:42:25,095 | INFO | bundesliga_rag | [07640cc0] Coach for Q15789 -> Vincent Kompany (Q201381)
+2026-02-02 17:44:57,859 | INFO | bundesliga_rag | [670f850b] New question: what about MUNICH?
+2026-02-02 17:44:57,861 | INFO | bundesliga_rag | [670f850b] Resolved city 'munich' -> FC Bayern Munich
+2026-02-02 17:44:58,160 | INFO | bundesliga_rag | [670f850b] Coach for Q15789 -> Vincent Kompany (Q201381)
+2026-02-02 17:45:09,351 | INFO | bundesliga_rag | [4986d847] New question: what about Frankfurt?
+2026-02-02 17:45:09,353 | INFO | bundesliga_rag | [4986d847] Resolved ambiguous city 'frankfurt' -> 1. FFC Frankfurt (disambiguated).
+2026-02-02 17:45:09,611 | INFO | bundesliga_rag | [4986d847] Coach for Q162449 -> Niko Arnautis (Q67135799)
+2026-02-02 20:37:00,415 | INFO | bundesliga_rag | [cfca3681] New question: London.
+2026-02-02 20:37:00,456 | WARNING | bundesliga_rag | [cfca3681] Entity resolution error: Could not resolve a Bundesliga city/club from the question.. Supported cities include: berlin, berlin deutschland, berlin germany, bln, bremen, bundeshauptstadt berlin, ccaa, city municipality of bremen, coln, coln am rhein, cologne, cologne germany, colonia, colonia claudia ara agrippinensium, colonia claudia ara agrippinensium - in laitn, de-be, de-hh, dortmund, ffm, fft, fhh, francfort, franckfurt am mayn, frankfort-on-the-main, frankfurt, frankfurt a m, frankfurt a main, frankfurt am main, frankfurt am main germany, frankfurt germany, frankfurt main, free and hanseatic city of hamburg, freiburg, freiburg br, freiburg breisgau, freiburg i b, freiburg i br, freiburg im breisgau, freie und hansestadt hamburg, gladbach
+2026-02-02 20:38:12,616 | INFO | bundesliga_rag | [36d03f81] New question: hsv
+2026-02-02 20:38:12,619 | INFO | bundesliga_rag | [36d03f81] Resolved club key 'hsv' -> Hamburger SV
+2026-02-02 20:38:13,712 | INFO | bundesliga_rag | [36d03f81] Coach for Q51974 -> Merlin Polzin (Q124514448)
+2026-02-02 20:38:24,485 | INFO | bundesliga_rag | [94afee17] New question: hamburg
+2026-02-02 20:38:24,486 | INFO | bundesliga_rag | [94afee17] Resolved ambiguous city 'hamburg' -> Hamburger SV (disambiguated).
+2026-02-02 20:38:24,716 | INFO | bundesliga_rag | [94afee17] Coach for Q51974 -> Merlin Polzin (Q124514448)
+2026-02-02 20:38:29,530 | INFO | bundesliga_rag | [9311346f] New question: pauli
+2026-02-02 20:38:29,531 | INFO | bundesliga_rag | [9311346f] Resolved via special alias 'pauli' -> FC St. Pauli
+2026-02-02 20:38:30,586 | INFO | bundesliga_rag | [9311346f] Coach for Q6463 -> Alexander Blessin (Q1560347)
+2026-02-02 20:39:31,429 | INFO | bundesliga_rag | [36e5d8da] New question: poland.
+2026-02-02 20:39:31,431 | WARNING | bundesliga_rag | [36e5d8da] Entity resolution error: Could not resolve a Bundesliga city/club from the question.. Supported cities include: berlin, berlin deutschland, berlin germany, bln, bremen, bundeshauptstadt berlin, ccaa, city municipality of bremen, coln, coln am rhein, cologne, cologne germany, colonia, colonia claudia ara agrippinensium, colonia claudia ara agrippinensium - in laitn, de-be, de-hh, dortmund, ffm, fft, fhh, francfort, franckfurt am mayn, frankfort-on-the-main, frankfurt, frankfurt a m, frankfurt a main, frankfurt am main, frankfurt am main germany, frankfurt germany, frankfurt main, free and hanseatic city of hamburg, freiburg, freiburg br, freiburg breisgau, freiburg i b, freiburg i br, freiburg im breisgau, freie und hansestadt hamburg, gladbach
+2026-02-02 20:40:22,290 | INFO | bundesliga_rag | [710575ac] New question: 
+2026-02-02 20:40:22,292 | WARNING | bundesliga_rag | [710575ac] Entity resolution error: Could not resolve a Bundesliga city/club from the question.. Supported cities include: berlin, berlin deutschland, berlin germany, bln, bremen, bundeshauptstadt berlin, ccaa, city municipality of bremen, coln, coln am rhein, cologne, cologne germany, colonia, colonia claudia ara agrippinensium, colonia claudia ara agrippinensium - in laitn, de-be, de-hh, dortmund, ffm, fft, fhh, francfort, franckfurt am mayn, frankfort-on-the-main, frankfurt, frankfurt a m, frankfurt a main, frankfurt am main, frankfurt am main germany, frankfurt germany, frankfurt main, free and hanseatic city of hamburg, freiburg, freiburg br, freiburg breisgau, freiburg i b, freiburg i br, freiburg im breisgau, freie und hansestadt hamburg, gladbach
+2026-02-02 20:41:33,689 | INFO | bundesliga_rag | [1f03272e] Bundesliga index built: 101 city keys, 208 club keys.
+2026-02-02 20:41:52,814 | INFO | bundesliga_rag | [b4471842] New question: belgium
+2026-02-02 20:41:52,887 | WARNING | bundesliga_rag | [b4471842] Entity resolution error: Could not resolve a Bundesliga city/club from the question. 
+. Supported cities include: berlin, berlin deutschland, berlin germany, bln, bremen, bundeshauptstadt berlin, ccaa, city municipality of bremen, coln, coln am rhein, cologne, cologne germany, colonia, colonia claudia ara agrippinensium, colonia claudia ara agrippinensium - in laitn, de-be, de-hh, dortmund, ffm, fft, fhh, francfort, franckfurt am mayn, frankfort-on-the-main, frankfurt, frankfurt a m, frankfurt a main, frankfurt am main, frankfurt am main germany, frankfurt germany, frankfurt main, free and hanseatic city of hamburg, freiburg, freiburg br, freiburg breisgau, freiburg i b, freiburg i br, freiburg im breisgau, freie und hansestadt hamburg, gladbach
+2026-02-02 20:42:24,881 | INFO | bundesliga_rag | [0b93e974] New question: berlin
+2026-02-02 20:42:24,883 | INFO | bundesliga_rag | [0b93e974] Resolved city 'berlin' -> 1. FC Union Berlin
+2026-02-02 20:43:22,824 | INFO | bundesliga_rag | [2ac80c84] Bundesliga index built: 101 city keys, 208 club keys.
+2026-02-02 20:43:26,639 | INFO | bundesliga_rag | [078a932f] New question: berlin
+2026-02-02 20:43:26,639 | INFO | bundesliga_rag | [078a932f] Resolved city 'berlin' -> 1. FC Union Berlin
+2026-02-02 20:43:26,912 | INFO | bundesliga_rag | [078a932f] Coach for Q141971 -> Steffen Baumgart (Q2338559)
+2026-02-02 20:43:32,235 | INFO | bundesliga_rag | [42ec47c9] New question: hamburg
+2026-02-02 20:43:32,237 | INFO | bundesliga_rag | [42ec47c9] Resolved ambiguous city 'hamburg' -> Hamburger SV (disambiguated).
+2026-02-02 20:44:16,764 | WARNING | bundesliga_rag | [42ec47c9] Upstream data error: Wikidata API request failed (HTTP 429). Try again later.
+2026-02-02 20:44:25,207 | INFO | bundesliga_rag | [c833f3c6] New question: hamburg
+2026-02-02 20:44:25,209 | INFO | bundesliga_rag | [c833f3c6] Resolved ambiguous city 'hamburg' -> Hamburger SV (disambiguated).
+2026-02-02 20:44:55,313 | INFO | bundesliga_rag | [b272db70] Bundesliga index built: 101 city keys, 208 club keys.
+2026-02-02 20:44:57,750 | INFO | bundesliga_rag | [052b77e4] New question: hamburg
+2026-02-02 20:44:57,757 | INFO | bundesliga_rag | [052b77e4] Resolved ambiguous city 'hamburg' -> Hamburger SV (disambiguated).
+2026-02-02 20:45:09,365 | WARNING | bundesliga_rag | [c833f3c6] Upstream data error: Wikidata API request failed (HTTP 429). Try again later.
+2026-02-02 20:45:11,750 | INFO | bundesliga_rag | [2c6f7198] Bundesliga index built: 101 city keys, 208 club keys.
+2026-02-02 20:45:13,703 | INFO | bundesliga_rag | [3bb436a9] New question: berlin
+2026-02-02 20:45:13,718 | INFO | bundesliga_rag | [3bb436a9] Resolved city 'berlin' -> 1. FC Union Berlin
+2026-02-02 20:45:22,899 | INFO | bundesliga_rag | [b29f5594] New question: berlin
+2026-02-02 20:45:22,900 | INFO | bundesliga_rag | [b29f5594] Resolved city 'berlin' -> 1. FC Union Berlin
+2026-02-02 20:46:07,052 | WARNING | bundesliga_rag | [b29f5594] Upstream data error: Wikidata API request failed (HTTP 429). Try again later.
+2026-02-02 20:56:32,558 | INFO | bundesliga_rag | [9f5b563b] Bundesliga index built: 101 city keys, 208 club keys.
+2026-02-02 20:56:39,098 | INFO | bundesliga_rag | [4a6714d6] New question: berlin
+2026-02-02 20:56:39,111 | INFO | bundesliga_rag | [4a6714d6] Resolved city 'berlin' -> 1. FC Union Berlin
+2026-02-02 20:56:39,986 | INFO | bundesliga_rag | [4a6714d6] Coach for Q141971 -> Steffen Baumgart (Q2338559)
+2026-02-02 20:56:43,931 | INFO | bundesliga_rag | [1a127c14] New question: hamburg
+2026-02-02 20:56:43,933 | INFO | bundesliga_rag | [1a127c14] Resolved ambiguous city 'hamburg' -> Hamburger SV (disambiguated).
+2026-02-02 20:57:16,110 | INFO | bundesliga_rag | [1a127c14] Coach for Q51974 -> Merlin Polzin (Q124514448)
