@@ -86,3 +86,19 @@
 2026-02-02 20:56:43,931 | INFO | bundesliga_rag | [1a127c14] New question: hamburg
 2026-02-02 20:56:43,933 | INFO | bundesliga_rag | [1a127c14] Resolved ambiguous city 'hamburg' -> Hamburger SV (disambiguated).
 2026-02-02 20:57:16,110 | INFO | bundesliga_rag | [1a127c14] Coach for Q51974 -> Merlin Polzin (Q124514448)
+2026-02-02 21:22:34,150 | INFO | bundesliga_rag | [69d1240a] Bundesliga index built: 101 city keys, 208 club keys.
+2026-02-02 21:22:51,340 | INFO | bundesliga_rag | [9398f3f9] New question: Who is coaching Berlin?
+2026-02-02 21:22:51,356 | INFO | bundesliga_rag | [9398f3f9] Resolved city 'berlin' -> 1. FC Union Berlin
+2026-02-02 21:22:51,722 | INFO | bundesliga_rag | [9398f3f9] Coach for Q141971 -> Steffen Baumgart (Q2338559)
+2026-02-02 21:23:00,544 | INFO | bundesliga_rag | [a97d0e09] New question: What about Hamburg?
+2026-02-02 21:23:00,548 | INFO | bundesliga_rag | [a97d0e09] Resolved ambiguous city 'hamburg' -> Hamburger SV (disambiguated).
+2026-02-02 21:23:01,104 | INFO | bundesliga_rag | [a97d0e09] Coach for Q51974 -> Merlin Polzin (Q124514448)
+2026-02-02 21:23:11,142 | INFO | bundesliga_rag | [32d7da9a] New question: What about munich?
+2026-02-02 21:23:11,144 | INFO | bundesliga_rag | [32d7da9a] Resolved city 'munich' -> FC Bayern Munich
+2026-02-02 21:23:11,835 | INFO | bundesliga_rag | [32d7da9a] Coach for Q15789 -> Vincent Kompany (Q201381)
+2026-02-02 21:23:24,813 | INFO | bundesliga_rag | [8c7c426d] New question: Who is heidenheims manager?
+2026-02-02 21:23:24,870 | INFO | bundesliga_rag | [8c7c426d] Resolved club key 'heidenheim' -> 1. FC Heidenheim 1846
+2026-02-02 21:23:25,207 | INFO | bundesliga_rag | [8c7c426d] Coach for Q162251 -> Frank Schmidt (Q212139)
+2026-02-02 21:23:36,586 | INFO | bundesliga_rag | [c3cdd6a3] New question: Who is it for Pauli?
+2026-02-02 21:23:36,588 | INFO | bundesliga_rag | [c3cdd6a3] Resolved via special alias 'pauli' -> FC St. Pauli
+2026-02-02 21:23:36,898 | INFO | bundesliga_rag | [c3cdd6a3] Coach for Q6463 -> Alexander Blessin (Q1560347)
